@@ -1,19 +1,6 @@
 <template>
-  <div id="app">
-    <!--<nav class="navbar navbar-dark bg-dark">-->
-      <!---->
-      <!--<ul class="navbar-nav">-->
-        <!--<li class="nav-item">-->
-          <!---->
-        <!--</li>-->
-        <!--<li class="nav-item">-->
-          <!---->
-        <!--</li>-->
-      <!--</ul>-->
-
-    <!--</nav>-->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="main" id="app">
+    <nav class="navbar navbar-expand-lg navbar-light">
 
       <a class="navbar-brand">
         <router-link to="/" style="color:white">McMaster Health Sci</router-link>
@@ -46,7 +33,13 @@ export default {
 </script>
 
 <style>
+.navbar {
+  background-color: rgb(134, 33, 33);
+}
 
-
+.main{
+  background-color: #f7eecd;
+  height:100vh;
+}
 
 </style>

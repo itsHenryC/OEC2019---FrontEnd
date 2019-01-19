@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 class="text-center mt-3">Customer Registration</h1>
+      <h1 class="text-center mt-3 title">Customer Registration</h1>
       <hr>
       <form @submit.prevent="submit" class="offset-3 form-group col-6">
         <h3>Patient Name</h3>
@@ -53,7 +53,12 @@
 </script>
 
 <style scoped>
+.title{
+  font-size: 2.2em;
+}
 
-
+h3{
+  font-size:1.5em;
+}
 
 </style>
