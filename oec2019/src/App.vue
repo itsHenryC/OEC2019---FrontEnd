@@ -2,15 +2,15 @@
   <div class="main" id="app">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand">
-        <router-link to="/" style="color:white">
-        MediSci
+        <router-link to="/" style="color:white; font-weight:bold;">
+        MedAssist
         </router-link>
       </a>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <router-link class="nav-item nav-link" to="/customer" style="color:white" active>Patient</router-link>
-          <router-link class="nav-item nav-link" to="/hospital" style="color:white">Hospital Access</router-link>
+          <router-link class="nav-item nav-link" to="/doctorlogin" style="color:white">Hospital Access</router-link>
         </div>
       </div>
     </nav>

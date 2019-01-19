@@ -1,6 +1,23 @@
 <template>
     <div class="container">
-      <h1>Home</h1>
+        <br>
+      <div class="row">
+          <div class="col-12 text-center title">MedAssist</div>
+      </div>
+      <hr>
+      <br><br>
+      <div class="row text-center">  
+        <div style="width:1000px; margin: 0 auto;">
+            <router-link to="/Customer" tag="button">Patient Form</router-link>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">  
+        <div style="width:1000px; margin: 0 auto;">
+            <router-link to="/doctorlogin" tag="button">Doctor Login</router-link>
+        </div>
+      </div>
+
     </div>
 </template>
 
@@ -11,5 +28,8 @@
 </script>
 
 <style scoped>
-
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
 </style>

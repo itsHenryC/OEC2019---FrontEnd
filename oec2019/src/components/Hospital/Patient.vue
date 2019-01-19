@@ -33,7 +33,7 @@
 
 <script>
     export default {
-        name: "Hospital",
+        name: "Patient",
         data () {
             return {
                 name: "Test Name 123",
