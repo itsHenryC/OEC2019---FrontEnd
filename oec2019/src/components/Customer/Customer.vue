@@ -1,8 +1,11 @@
 <template>
     <div>
-      <h1 class="text-center mt-3 title">Customer Registration</h1>
+      <h1 class="text-center mt-3 title">Patient Form</h1>
       <hr>
       <form @submit.prevent="submit" class="offset-3 form-group col-6">
+        <h3>Appointment Date</h3>
+        <input v-model="appointmentDate" type="text" placeholder="e.g. MM/DD/YY HH:MM" class="form-control">  
+        <br>
         <h3>Patient Name</h3>
         <input v-model="patientName" type="text" placeholder="e.g. John Doe" class="form-control">
         <br>
@@ -19,7 +22,7 @@
         <br>
         <h3>List of Symptoms</h3>
         <input v-model="symptoms" type="text" placeholder="e.g. Hot hands, itchy, etc." class="form-control">
-        <br>
+        <br>  
         <button type="submit" class="btn btn-success btn-block"><router-link to="/customer/success" style="color:white">Submit</router-link></button>
       </form>
 
@@ -38,6 +41,7 @@
       name: 'customer',
       data() {
         return {
+            appointmentDate: "",
             patientName: "",
             gender: "",
             symptoms: "",
