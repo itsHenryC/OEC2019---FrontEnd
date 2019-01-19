@@ -1,26 +1,18 @@
 <template>
     <div class="container" style="padding-top:100px;">
-        <h1 class="text-center mt-3 title">Doctor Login</h1>
+        <h1 class="text-center mt-3 title">Medical Personnel Login</h1>
         <br>
-        <div class="row row-user">
-            <div class="col-4 text-right">Username:</div>
-            <div class="col-6 text-left">
-            <input v-model="username" type="username" class="form-control" />
-            </div>
+        <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe" style="visibility:hidden;"></iframe>
+        <div class="offset-3 col-6">
+            <form action="https://roec19-api.herokuapp.com/login" method="post" class="form-group">
+            <h6>Doctor ID</h6>
+            <input type="text" name="name" required class="form-control"><br/>
+            <h6>Password</h6>
+            <input type="text" name="password" required class="form-control"><br/>
+            <button class="btn btn-success" type="submit">Log In</button>
+            </form>
         </div>
-        <br>
-        <div class="row row-password">
-            <div class="col-4 text-right">Password:</div>
-            <div class="col-6 text-left">
-            <input v-model="password" type="password" class="form-control" />      
-            </div>   
-        </div>
-        <br>
-        <div class="row text-center">
-            <div style="width:1000px; margin: 0 auto;">
-                <button class="btn btn-success btn-lg"><router-link to="/patientlist" style="color: white">Login</router-link></button>
-            </div>
-        </div>
+
 
     </div>
 </template>
