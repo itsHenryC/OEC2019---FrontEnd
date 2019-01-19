@@ -15,7 +15,7 @@ export const routes = [
     }
   },
   {
-    path: '/customer/success', components: {
+    path: '/customer/success', name: 'success', components: {
       default: SubmitSuccess
     }
   },
