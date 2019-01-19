@@ -12,15 +12,12 @@
             <button class="btn btn-success" type="submit">Log In</button>
             </form>
         </div>
-
-
     </div>
 </template>
 
 <script>
     export default {
-        name: "DoctorLogin"
-    }
+        name: "DoctorLogin"}  
 </script>
 
 <style scoped>

@@ -39,7 +39,7 @@
                 name: "Test Name 123",
                 submit_time: "May 15, 1997 5:00PM",
                 appointment_time: "May 15, 1997 5:00PM",
-                symptoms: "ALOT OF TEXT IS HERE LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL LOLOLOLOL"
+                symptoms: "Headaches occur daily. Migraines. Fainting. Nose bleeds. Bruised leg."
             };
         }
     }

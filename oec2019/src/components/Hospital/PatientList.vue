@@ -6,7 +6,7 @@
       </div>
       <hr>
       <div style="width:1000px; margin: 0 auto;">
-        <router-link to="/patient" tag="button">Login</router-link>
+        <router-link to="/patient" tag="button">Patient 1</router-link>
       </div>
     </div>
 </template>
