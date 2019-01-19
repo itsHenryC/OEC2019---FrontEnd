@@ -18,7 +18,7 @@
         <br>
         <div class="row text-center">
             <div style="width:1000px; margin: 0 auto;">
-                <router-link to="/patientlist" tag="button">Login</router-link>
+                <button class="btn btn-success btn-lg"><router-link to="/patientlist" style="color: white">Login</router-link></button>
             </div>
         </div>
 

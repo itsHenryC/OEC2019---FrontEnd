@@ -30,17 +30,32 @@
         <!--<button type="submit" class="btn btn-success btn-block"><router-link to="/customer/success" style="color:white">Submit</router-link></button>-->
 
       <!--</form>-->
-      <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+      <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe" style="visibility: hidden;"></iframe>
 
-      <form action="https://roec19-api.herokuapp.com/send" method="post" target="dummyframe">
-        Name: <input type="text" name="name" required><br/>
-        Gender: <input type="text" name="gender" required><br/>
-        Phone #: <input type="text" name="phonenumber" required><br/>
-        Doctor: <input type="text" name="doctor" required><br/>
-        Appt: <input type="text" name="apptdate" required><br/>
-        Symptoms: <input type="text" name="symptoms" required><br/>
-        <button type="submit">Please Work</button>
-      </form>
+      <div>
+        <form action="https://roec19-api.herokuapp.com/send" method="post" target="dummyframe" class="form-group offset-3 col-6">
+          <h6>Patient Name</h6>
+          <input type="text" name="name" required class="form-control"><br/>
+
+          <h6>Gender</h6>
+          <input type="text" name="gender" required class="form-control"><br/>
+
+          <h6>Patient Phone Number</h6>
+          <input type="text" name="phonenumber" required class="form-control"><br/>
+
+          <h6>Doctor ID</h6>
+          <input type="text" name="doctor" required class="form-control"><br/>
+
+          <h6>Appointment Time</h6>
+          <input type="text" name="apptdate" required class="form-control"><br/>
+
+          <h6>Symptoms</h6>
+          <input type="text" name="symptoms" required class="form-control"><br/>
+
+          <button class="btn btn-success" type="submit" style="display:inline-block; width: 100px;">Submit</button>
+        </form>
+      </div>
+
       <ul class="text-center">
         <li v-for="errorMsg in errorMsgs">
           {{ errorMsg }}
@@ -119,7 +134,7 @@
 
 <style scoped>
 .title{
-  font-size: 2.2em;
+  font-size: 1.3em;
 }
 
 h3{
